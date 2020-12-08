@@ -9,7 +9,8 @@ class EmployeeForm(forms.ModelForm):
         fields = ('fullname','mobile','emp_code','position')
         labels = {
             'fullname':'Full Name',
-            'emp_code':'EMP. Code'
+            'emp_code':'Roll Number',
+            'position': 'Year'
         }
 
     def __init__(self, *args, **kwargs):
